@@ -4,8 +4,6 @@
 #$ -q free128,free72i,free56i,free48i,free40i,free32i,free64
 #$ -pe openmp 32
 #$ -R Y
-### -m beas
-### -M huiyuh3@uci.edu
 
 
 # Load binaries and modules
