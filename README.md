@@ -10,8 +10,10 @@ cd hw4
 ## Summarize partitions of a genome assembly
 The script "01_partition_summary.sh" is used. The output file "reports.txt" shows that
 > For sequences with length > 100 kb, there are 0 bases in total, (0 Ns, 0 sequences).
->For sequences with length <= 100 kb, there are 6178042 bases in total, (662593 Ns, 1863 sequences).
->For all sequences, there are 143726002 bases in total, (1152978 Ns, 1870 sequences).
+>
+> For sequences with length <= 100 kb, there are 6178042 bases in total, (662593 Ns, 1863 sequences).
+>
+> For all sequences, there are 143726002 bases in total, (1152978 Ns, 1870 sequences).
 
 And the sequence length distribution for whole genome, sequences less than or equal to 100 kb, and sequences greater than to 100 kb
 
