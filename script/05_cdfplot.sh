@@ -17,7 +17,7 @@ figures=$basedir/output/figures
 
 # Analysis
 cd $raw
-wget -A *chromosome* -q $DB_URL
+chromosome=$(ls *chromosome*)
 
 bioawk -c fastx ' { print length($seq) } ' $chromosome \
 | sort -rn \
