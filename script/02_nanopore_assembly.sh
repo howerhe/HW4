@@ -1,4 +1,4 @@
-#!/bin/baash
+#!/bin/bash
 # Modified from the course material
 
 
