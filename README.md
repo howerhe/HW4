@@ -33,6 +33,10 @@ And the cumulative genome size sorted from largest to smallest sequences for who
 ![](media/short_cumulative.png)
 ![](media/long_cumulative.png)
 
+### Comments on "Summarize partitions of a genome assembly"
+
+Mostly O.K. However, the GC and sequence length distributions should be straight up histograms rather than reverse sorted CDFs. That's a peculiar type of distribution plot that is generally reserved for special purposes where that is meaningful (like in the case of genome contiguity plots). Consequently, please plot the histograms of GC and length with a new R script. plotCDF and plotCDF2 won't work.
+
 
 ## Genome assembly
 The script "02_nanopore_assembly.sh" is used for assembly.
